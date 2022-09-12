@@ -14,9 +14,11 @@
       "!**/coverage/**"
     ],
     "coverageThreshold": {
-      "branches": 100,
-      "functions": 100,
-      "lines": 100
+      global: {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
     }
   },
   "keywords": [
