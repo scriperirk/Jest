@@ -20,6 +20,8 @@ build/
 *.ipr
 out/
 driver/
+coverage/
+node_modules/
 
 ### NetBeans ###
 /nbproject/private/
