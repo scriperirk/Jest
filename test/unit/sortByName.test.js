@@ -15,4 +15,10 @@ describe("Books names test suit", () => {
     ]);
   });
 
+it("Books with the same title remain unsorted", () => {
+    expect(
+      sorting.sortByName(["Гарри Поттер", "Властелин Колец", "Гарри Поттер"])
+    ).toEqual(["Властелин Колец", "Властелин Колец", "Властелин Колец"]);
+  });
+
 });
